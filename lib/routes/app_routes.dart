@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import '../screens/splash_screen.dart';
 import '../screens/login_screen.dart';
 import '../screens/signup_screen.dart';
-import '../screens/home_screen.dart';
+import '../screens/main_navigation_screen.dart';
 
 class AppRoutes {
   static const String splash = '/splash';
@@ -26,7 +26,7 @@ class AppRoutes {
     ),
     GetPage(
       name: home,
-      page: () => const HomeScreen(),
+      page: () => const MainNavigationScreen(),
     ),
   ];
 }
